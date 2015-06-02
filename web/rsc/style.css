@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 26, 2014, 8:15:53 PM
+    Author     : Zach Bolan
+*/
+
+html {
+	min-height: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	margin-top: -15px;
+	background-color: #E4E4E4;
+	min-width: 410px;
+}
+
+.spacer {
+	height: 100px;
+}
+
+.side-panel {
+	background-color: #212121;
+	float: left;
+	width: 40%;
+	max-width: 225px;
+	min-height: 150%;
+	color: #fff;
+	padding: 4px;
+	padding-top: 8px;
+}
+
+.pic {
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+}
+
+.side-panel p a, .side-panel p a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.main-pic {
+	width: 50%;
+	max-width: 250px;
+	margin: 2%;
+}
+
+.search-container {
+	width: 100%;
+}
+
+.searchbar {
+	width: 60%;
+	min-width: 105px;
+	margin: 0px;
+	border: none;
+	height: 18px;
+}
+
+.searchbtn {
+	width: 58px;
+	margin: 0px;
+	padding: 1px 3px;
+	border: none;
+	height: 20px;
+	margin-left: -4px;
+}
+
+.post {
+	width: 55%;
+	max-width: 250px;
+	float: left;
+	opacity: .8;
+	margin: 5px;
+}
+
+.post:hover {opacity: 1;}
+
+.post img {width: 100%;}
+
+.post .menu {
+	margin: 0;
+	margin-top: -60px;
+	padding: 6px;
+}
+
+.post .menu .pic {
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+}
+
+.profile-header {
+	padding: 1px;
+	height: 220px;
+}
+
+.profile-header .left {
+	float: left;
+	width: 45%;
+	min-width: 225px;
+	padding: 4px;
+}
+
+.profile-header .right {
+	float: left;
+	width: 25%;
+	padding: 4px;
+}
+
+.center-txt {
+	text-align: center;
+}
+
+.login-body {
+	width: 350px;
+	padding: 10px;
+	margin: 0 auto;
+	background-color: #fff;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.height-extend {height: 50px;}
